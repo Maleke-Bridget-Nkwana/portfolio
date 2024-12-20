@@ -82,7 +82,7 @@ footer {
 /* Dark Mode Styles */
 body.dark-mode {
   background-color: #333;
-  color: #555;
+  color: #fff;
 }
 
 body.dark-mode header {
