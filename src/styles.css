@@ -1,9 +1,11 @@
+/* General Styles */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header {
@@ -81,31 +83,32 @@ footer {
 
 /* Dark Mode Styles */
 body.dark-mode {
-  background-color: #333;
-  color: #fff;
+  background-color: #121212;
+  color: #eeeeee;
 }
 
 body.dark-mode header {
-  background-color: #222;
+  background-color: #222222;
+  color: #eeeeee;
 }
 
 body.dark-mode footer {
-  background-color: #222;
-  color: #fff;
+  background-color: #222222;
+  color: #eeeeee;
 }
 
 /* Light Mode Styles */
 body.light-mode {
-  background-color: #fff;
-  color: #333;
+  background-color: #ffffff;
+  color: #333333;
 }
 
 body.light-mode header {
   background-color: #f9f9f9;
-  color: #333;
+  color: #333333;
 }
 
 body.light-mode footer {
   background-color: #f9f9f9;
-  color: #333;
+  color: #333333;
 }
