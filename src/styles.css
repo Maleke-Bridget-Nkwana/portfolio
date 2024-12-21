@@ -35,6 +35,26 @@ footer {
   background: #fff;
 }
 
+/* Welcome Section Styles*/
+#welcome {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#welcome h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#welcome p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
 /* About Section Styles */
 #about {
   background: #f9f9f9;
@@ -84,33 +104,33 @@ footer {
 /* Dark Mode Styles */
 body.dark-mode {
   background-color: #121212;
-  color: #eeeeee;
+  color: #555;
 }
 
 body.dark-mode header {
-  background-color: #222222;
-  color: #eeeeee;
+  background-color: #222;
+  color: #eee;
 }
 
 body.dark-mode footer {
-  background-color: #222222;
-  color: #eeeeee;
+  background-color: #222;
+  color: #eee;
 }
 
 /* Light Mode Styles */
 body.light-mode {
   background-color: #ffffff;
-  color: #333333;
+  color: #333;
 }
 
 body.light-mode header {
   background-color: #f9f9f9;
-  color: #333333;
+  color: #555;
 }
 
 body.light-mode footer {
   background-color: #f9f9f9;
-  color: #333333;
+  color: #333;
 }
 
 /* Skills Section Styles */
