@@ -28,5 +28,5 @@ Technologies Used
 - CSS3
 - JavaScript
 
-  Contact
+  ## Contact
   If you would like to connect or have questions, please feel free to reach out through my portfolio's contact form!
