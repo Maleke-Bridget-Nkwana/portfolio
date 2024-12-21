@@ -25,8 +25,3 @@ themeToggle.addEventListener("click", () => {
   }
 });
 
-// Contact form validation
-let contactForm = document.getElementById("contact-form");
-contactForm.addEventListener("submit", (event) => {
-  alert("Thank you for your message! I will get back to you soon.");
-});
