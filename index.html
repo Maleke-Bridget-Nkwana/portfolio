@@ -114,6 +114,13 @@
           action="https://formspree.io/f/xgvvwyjo"
           method="post"
         >
+          <input type="hidden" name="_subject" value="New Portfolio Message" />
+          <input
+            type="hidden"
+            name="_redirect"
+            value="https://mbnkwanaportfolio.netlify.app/thank-you.html"
+          />
+          <input type="hidden" name="_captcha" value="true" />
           <div class="form-group">
             <label for="name">Name</label>
             <input
@@ -136,8 +143,14 @@
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-          <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit"> Send Message</button>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
           </div>
         </form>
       </section>
